@@ -1,4 +1,11 @@
 { config, pkgs, userSettings, ... }:
+let
+	workspaceDirectory = "${userSettings.homeDirectory}/Workspace";
+	openSourceDirectory = "${workspaceDirectory}/open-source";
+	privateDirectory = "${workspaceDirectory}/private";
+	studyDirectory = "${workspaceDirectory}/study";
+	workDirectory = "${workspaceDirectory}/work";
+in
 {
 	imports =
 	[
@@ -79,31 +86,31 @@
 			# Set dotfiles path variables
 			SHELLDIR = "${userSettings.dotfiles}/shell";
 			UTILSDIR = "${userSettings.dotfiles}/utils";
-			VIMDIR = "${userSettings.dotfiles}/vim";
+			VIMDIR = "${userSettings.dotfilesDirectory}/vim";
 			ZSHDIR = "${userSettings.dotfiles}/zsh";
 
 			# Set workspace;
-			WORKSPACE = "${userSettings.homeDirectory}/Workspace";
+			WORKSPACE = "${workspaceDirectory}";
 
 			# Set open-source workspace;
-			OPEN_SOURCE = "$WORKSPACE/open-source";
-			OPEN_SOURCE_PROJECTS = "$OPEN_SOURCE/projects";
-			OPEN_SOURCE_SCRIPTS = "$OPEN_SOURCE/scripts";
+			OPEN_SOURCE = "${openSourceDirectory}";
+			OPEN_SOURCE_PROJECTS = "${openSourceDirectory}/projects";
+			OPEN_SOURCE_SCRIPTS = "${openSourceDirectory}/scripts";
 
 			# Set private workspace;
-			PRIVATE = "$WORKSPACE/private";
-			PRIVATE_PROJECTS = "$PRIVATE/projects";
-			PRIVATE_SCRIPTS = "$PRIVATE/scripts";
+			PRIVATE = "${privateDirectory}";
+			PRIVATE_PROJECTS = "${privateDirectory}/projects";
+			PRIVATE_SCRIPTS = "${privateDirectory}/scripts";
 
 			# Set study workspace;
-			STUDY = "$WORKSPACE/study";
-			STUDY_PROJECTS = "$STUDY/projects";
-			STUDY_SCRIPTS = "$STUDY/scripts";
+			STUDY = "${studyDirectory}";
+			STUDY_PROJECTS = "${studyDirectory}/projects";
+			STUDY_SCRIPTS = "${studyDirectory}/scripts";
 
 			# Set work workspace;
-			WORK = "$WORKSPACE/work";
-			WORK_PROJECTS = "$WORK/projects";
-			WORK_SCRIPTS = "$WORK/scripts";
+			WORK = "${workDirectory}";
+			WORK_PROJECTS = "${workDirectory}/projects";
+			WORK_SCRIPTS = "${workDirectory}/scripts";
 		};
 	};
 
