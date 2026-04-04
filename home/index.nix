@@ -67,7 +67,6 @@ in
 		# through Home Manager then you have to manually source 'hm-session-vars.sh'
 		sessionVariables =
 		{
-
 			# Set aws config env variables
 			AWS_CONFIG_FILE = "${config.xdg.configHome}/aws/config";
 
@@ -111,6 +110,17 @@ in
 			WORK = "${workDirectory}";
 			WORK_PROJECTS = "${workDirectory}/projects";
 			WORK_SCRIPTS = "${workDirectory}/scripts";
+		};
+
+		pointerCursor =
+		{
+			name = "Adwaita";
+			package = pkgs.adwaita-icon-theme;
+			size = 24;
+			gtk =
+			{
+				enable = true;
+			};
 		};
 	};
 
