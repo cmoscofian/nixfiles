@@ -1,0 +1,23 @@
+{ config, pkgs, ... }:
+{
+	services =
+	{
+		flameshot =
+		{
+			enable = true;
+			settings = {
+				General =
+				{
+					contrastOpacity = 234;
+					filenamePattern="%Y-%m-%dT%H-%M-%S";
+					savePath="/tmp";
+					savePathFixed = true;
+					showDesktopNotification = false;
+					showHelp = false;
+					showSidePanelButton=false;
+					showStartupLaunchMessage=false;
+				};
+			};
+		};
+	};
+}

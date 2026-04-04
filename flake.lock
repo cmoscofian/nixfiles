@@ -1,0 +1,85 @@
+{
+  "nodes": {
+    "chomes-nix-modules": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1770969387,
+        "narHash": "sha256-m96lqNTYrSdxC4Kse/X3iu0wCgE7har5RewUfh1e9jc=",
+        "owner": "chomes",
+        "repo": "nix_modules",
+        "rev": "a8de6a934919fe4027b51e417b0743b4b9c01499",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chomes",
+        "ref": "main",
+        "repo": "nix_modules",
+        "type": "github"
+      }
+    },
+    "cmoscofian-dotfiles": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1775311991,
+        "narHash": "sha256-q9Wp9Fq73uCbijHXtIy+vvufBnbnCXLpCae9ZaRmpWE=",
+        "owner": "cmoscofian",
+        "repo": "dotfiles",
+        "rev": "eba61a154260ebfd80d071574dee6b238c648618",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cmoscofian",
+        "ref": "main",
+        "repo": "dotfiles",
+        "type": "github"
+      }
+    },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1775268934,
+        "narHash": "sha256-Sa5tW5kYPJornQEkFVD43F/0d4/WP+/GLTNktTFe2qU=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "9dc93220c1c9a410ef6277d6dc55c571d9e592d0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "master",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1775036866,
+        "narHash": "sha256-ZojAnPuCdy657PbTq5V0Y+AHKhZAIwSIT2cb8UgAz/U=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "6201e203d09599479a3b3450ed24fa81537ebc4e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "chomes-nix-modules": "chomes-nix-modules",
+        "cmoscofian-dotfiles": "cmoscofian-dotfiles",
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
