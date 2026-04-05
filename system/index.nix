@@ -62,7 +62,7 @@
 			{
 				isNormalUser = true;
 				extraGroups = [ "wheel" "nordvpn" ];
-				packages = with pkgs; [];
+				packages = [];
 			};
 		};
 	};
@@ -71,6 +71,9 @@
 	{
 		firefox =
 		{
+			enable = true;
+		};
+		git = {
 			enable = true;
 		};
 		gnupg =
@@ -90,6 +93,15 @@
 		ssh =
 		{
 			startAgent = true;
+		};
+		tmux =
+		{
+			enable = true;
+		};
+		vim =
+		{
+			enable = true;
+			defaultEditor = true;
 		};
 		zsh =
 		{
@@ -111,17 +123,10 @@
 			curl
 			dunst
 			flatpak
-			git
-			gnupg
 			openssl_3
-			pass
 			pinentry-qt
-			playerctl
-			spotify
+			pulsemixer
 			swaylock-effects
-			tmux
-			tree
-			vim
 			wdisplays
 			wl-clipboard
 			wofi
@@ -175,7 +180,6 @@
 		{
 			allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg)
 			[
-				"spotify"
 				"nordvpn"
 			];
 		};

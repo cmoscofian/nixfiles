@@ -1,4 +1,4 @@
-{ config, pkgs, userSettings, ... }:
+{ config, pkgs, lib, userSettings, ... }:
 let
 	workspaceDirectory = "${userSettings.homeDirectory}/Workspace";
 	openSourceDirectory = "${workspaceDirectory}/open-source";
@@ -51,8 +51,10 @@ in
 		[
 			bluetui
 			freecad
-			pulsemixer
-			ripgrep
+			pass
+			playerctl
+			spotify
+			tree
 		];
 
 		# Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -134,6 +136,29 @@ in
 		home-manager =
 		{
 			enable = true;
+		};
+		ripgrep =
+		{
+			enable = true;
+		};
+	};
+
+	services =
+	{
+		playerctld =
+		{
+			enable = true;
+		};
+	};
+
+	nixpkgs =
+	{
+		config =
+		{
+			allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg)
+			[
+				"spotify"
+			];
 		};
 	};
 }
