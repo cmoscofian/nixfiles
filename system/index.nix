@@ -86,6 +86,10 @@
 		{
 			enable = true;
 		};
+		hyprlock =
+		{
+			enable = true;
+		};
 		nm-applet =
 		{
 			enable = true;
@@ -124,9 +128,9 @@
 			dunst
 			flatpak
 			openssl_3
+			pcmanfm
 			pinentry-qt
 			pulsemixer
-			swaylock-effects
 			wdisplays
 			wl-clipboard
 			wofi

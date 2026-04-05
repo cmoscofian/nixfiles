@@ -20,11 +20,11 @@
     "cmoscofian-dotfiles": {
       "flake": false,
       "locked": {
-        "lastModified": 1775311991,
-        "narHash": "sha256-q9Wp9Fq73uCbijHXtIy+vvufBnbnCXLpCae9ZaRmpWE=",
+        "lastModified": 1775405459,
+        "narHash": "sha256-PG4R7Wgy9j1ET2feW4UJ64mu+azOlscCHxN3WFemft8=",
         "owner": "cmoscofian",
         "repo": "dotfiles",
-        "rev": "eba61a154260ebfd80d071574dee6b238c648618",
+        "rev": "017dd268293b726897ca23447dcf81bef254a4e0",
         "type": "github"
       },
       "original": {
