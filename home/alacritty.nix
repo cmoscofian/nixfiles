@@ -58,7 +58,8 @@
 				font =
 				{
 					size = 13;
-					normal = {
+					normal =
+					{
 						family = "AdwaitaMono Nerd Font";
 						style = "Regular";
 					};

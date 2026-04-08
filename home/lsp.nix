@@ -1,6 +1,7 @@
 { config, pkgs, ... }:
 {
-	home = {
+	home =
+	{
 		packages = with pkgs; [
 			gopls
 			jdt-language-server

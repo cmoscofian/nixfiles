@@ -5,7 +5,8 @@
 		flameshot =
 		{
 			enable = true;
-			settings = {
+			settings =
+			{
 				General =
 				{
 					contrastOpacity = 234;

@@ -2,10 +2,13 @@
 {
 	services =
 	{
-		dunst = {
+		dunst =
+		{
 			enable = true;
-			settings = {
-				global = {
+			settings =
+			{
+				global =
+				{
 					monitor = 0;
 					follow = "none";
 					width = "(175, 300)";
@@ -58,23 +61,27 @@
 					mouse_right_click = "open_url";
 				};
 
-				experimental = {
+				experimental =
+				{
 					per_monitor_dpi = false;
 				};
 
-				urgency_low = {
+				urgency_low =
+				{
 					background = "#ffffff";
 					foreground = "#000000";
 					timeout = 3;
 				};
 
-				urgency_normal = {
+				urgency_normal =
+				{
 					background = "#ffffff";
 					foreground = "#000000";
 					timeout = 5;
 				};
 
-				urgency_critical = {
+				urgency_critical =
+				{
 					background = "#800000";
 					foreground = "#ffffff";
 					timeout = 0;

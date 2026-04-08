@@ -21,7 +21,6 @@ in
 		./lsp.nix
 		./nvim.nix
 		./ssh.nix
-		./swaylock.nix
 		./tmux.nix
 		./vim.nix
 		./waybar.nix

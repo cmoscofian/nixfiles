@@ -7,26 +7,27 @@
 			enable = true;
 			theme = "circle_hud";
 			themePackages = with pkgs; [
-				(adi1090x-plymouth-themes.override {
-					selected_themes = [ "circle_hud" ];
-				})
+				(adi1090x-plymouth-themes.override { selected_themes = [ "circle_hud" ]; })
 			];
 		};
 		consoleLogLevel = 3;
-		initrd = {
+		initrd =
+		{
 			systemd =
 			{
 				enable = true;
 			};
 			verbose = false;
 		};
-		kernelParams = [
+		kernelParams =
+		[
 			"quiet"
 			"splash"
 			"udev.log_level=3"
 			"systemd.show_status=auto"
 		];
-		loader = {
+		loader =
+		{
 			timeout = 0;
 		};
 	};

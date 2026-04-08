@@ -27,7 +27,8 @@
 	networking =
 	{
 		hostName = "${systemSettings.hostname}";
-		networkmanager = {
+		networkmanager =
+		{
 			enable = true;
 		};
 	};
@@ -73,12 +74,14 @@
 		{
 			enable = true;
 		};
-		git = {
+		git =
+		{
 			enable = true;
 		};
 		gnupg =
 		{
-			agent = {
+			agent =
+			{
 				enable = true;
 			};
 		};
@@ -135,17 +138,6 @@
 			wl-clipboard
 			wofi
 		];
-	};
-
-	security =
-	{
-		pam =
-		{
-			services =
-			{
-				swaylock = {};
-			};
-		};
 	};
 
 	fonts =

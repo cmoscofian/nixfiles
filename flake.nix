@@ -90,7 +90,7 @@
 		};
 		homeConfigurations =
 		{
-			cmoscofian = home-manager.lib.homeManagerConfiguration
+			cmoscofian = input.home-manager.lib.homeManagerConfiguration
 			{
 				inherit pkgs;
 				extraSpecialArgs =
