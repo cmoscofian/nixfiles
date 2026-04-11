@@ -52,6 +52,7 @@ in
 			freecad
 			pass
 			playerctl
+			sc-im
 			spotify
 			tree
 		];
@@ -88,6 +89,13 @@ in
 			UTILSDIR = "${userSettings.dotfiles}/utils";
 			VIMDIR = "${userSettings.dotfilesDirectory}/vim";
 			ZSHDIR = "${userSettings.dotfiles}/zsh";
+
+			# Set general usage env variables
+			BROWSER = "firefox";
+			EDITOR = "nvim";
+			MANPAGER = "nvim +Man!";
+			TERMINAL = "alacritty";
+			VISUAL = "nvim";
 
 			# Set workspace;
 			WORKSPACE = "${workspaceDirectory}";

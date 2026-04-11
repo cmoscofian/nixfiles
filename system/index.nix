@@ -168,6 +168,14 @@
 		{
 			enable = true;
 		};
+		xserver =
+		{
+			xkb =
+			{
+				layout = "us,se,br";
+				options = "ctrl:nocaps,grp:win_space_toggle";
+			};
+		};
 	};
 
 	nixpkgs =
