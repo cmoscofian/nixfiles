@@ -20,11 +20,11 @@
     "cmoscofian-dotfiles": {
       "flake": false,
       "locked": {
-        "lastModified": 1775812809,
+        "lastModified": 1776104795,
         "narHash": "sha256-PG4R7Wgy9j1ET2feW4UJ64mu+azOlscCHxN3WFemft8=",
         "owner": "cmoscofian",
         "repo": "dotfiles",
-        "rev": "11de002bd8952f2e8b6d9a7788ba8be7d4ec491a",
+        "rev": "f96aacee1936883d247b6f44cbc57fdeef81a3de",
         "type": "github"
       },
       "original": {
@@ -41,11 +41,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1775900011,
-        "narHash": "sha256-QUGu6CJYFQ5AWVV0n3/FsJyV+1/gj7HSDx68/SX9pwM=",
+        "lastModified": 1776184304,
+        "narHash": "sha256-No6QGBmIv5ChiwKCcbkxjdEQ/RO2ZS1gD7SFy6EZ7rc=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "b0569dc6ec1e6e7fefd8f6897184e4c191cd768e",
+        "rev": "3c7524c68348ef79ce48308e0978611a050089b2",
         "type": "github"
       },
       "original": {
