@@ -50,6 +50,7 @@ in
 		[
 			bluetui
 			freecad
+			kicad
 			pass
 			playerctl
 			sc-im
