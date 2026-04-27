@@ -3,6 +3,7 @@ let
 	nibble-vim = pkgs.vimUtils.buildVimPlugin
 	{
 		name = "nibble-vim";
+		pname = "nibble-vim";
 		src = pkgs.fetchFromGitHub {
 			owner = "cmoscofian";
 			repo = "nibble-vim";
