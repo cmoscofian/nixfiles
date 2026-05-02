@@ -50,6 +50,7 @@ in
 		[
 			bluetui
 			freecad
+			inkscape
 			kicad
 			pass
 			playerctl
