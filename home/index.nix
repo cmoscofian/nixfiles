@@ -50,6 +50,7 @@ in
 		[
 			bluetui
 			freecad
+			gimp
 			inkscape
 			kicad
 			pass
