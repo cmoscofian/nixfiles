@@ -151,6 +151,10 @@ in
 		{
 			enable = true;
 		};
+		discord =
+		{
+			enable = true;
+		};
 	};
 
 	services =
@@ -167,6 +171,7 @@ in
 		{
 			allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg)
 			[
+				"discord"
 				"spotify"
 			];
 		};
