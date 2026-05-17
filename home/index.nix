@@ -54,6 +54,7 @@ in
 			inkscape
 			kicad
 			pass
+			platformio
 			playerctl
 			sc-im
 			spotify

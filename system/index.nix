@@ -74,7 +74,7 @@
 			${userSettings.username} =
 			{
 				isNormalUser = true;
-				extraGroups = [ "wheel" "nordvpn" ];
+				extraGroups = [ "wheel" "nordvpn" "dialout" ];
 				packages = [];
 			};
 		};
@@ -181,6 +181,14 @@
 		flatpak =
 		{
 			enable = true;
+		};
+		udev =
+		{
+			packages = with pkgs; 
+			[
+				platformio-core.udev
+				openocd
+			];
 		};
 		xserver =
 		{
