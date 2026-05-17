@@ -147,11 +147,19 @@ in
 		{
 			enable = true;
 		};
+		discord =
+		{
+			enable = true;
+		};
+		gh =
+		{
+			enable = true;
+		};
 		ripgrep =
 		{
 			enable = true;
 		};
-		discord =
+		thunderbird =
 		{
 			enable = true;
 		};
