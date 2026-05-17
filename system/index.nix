@@ -54,6 +54,18 @@
 		timeZone = "Europe/Stockholm";
 	};
 
+	i18n =
+	{
+		defaultLocale = "en_GB.UTF-8";
+		extraLocaleSettings =
+		{
+			LC_COLLATE = "sv_SE.UTF-8";
+			LC_MONETARY = "sv_SE.UTF-8";
+			LC_TELEPHONE = "sv_SE.UTF-8";
+			LC_TIME = "sv_SE.UTF-8";
+		};
+	};
+
 	users =
 	{
 		defaultUserShell = pkgs.zsh;
