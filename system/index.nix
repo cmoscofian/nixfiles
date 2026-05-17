@@ -146,6 +146,8 @@
 			pcmanfm
 			pinentry-qt
 			pulsemixer
+			unzip
+			vlc
 			wdisplays
 			wl-clipboard
 			wofi
