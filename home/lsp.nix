@@ -3,6 +3,7 @@
 	home =
 	{
 		packages = with pkgs; [
+			clang-tools
 			gopls
 			jdt-language-server
 			lua-language-server
