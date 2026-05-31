@@ -23,14 +23,14 @@
 			url = "github:cmoscofian/dotfiles/main";
 			flake = false;
 		};
-		chomes-nix-modules =
+		cmoscofian-nordvpn-nix =
 		{
-			url = "github:chomes/nix_modules/main";
-			flake = false;
+			url = "github:cmoscofian/nordvpn-nix/feat/flake";
+			flake = true;
 		};
 	};
 
-	outputs = input@{ self, nixpkgs, home-manager, cmoscofian-dotfiles, chomes-nix-modules, ... }:
+	outputs = input@{ self, nixpkgs, home-manager, cmoscofian-dotfiles, cmoscofian-nordvpn-nix, ... }:
 	let
 		lib = input.nixpkgs.lib;
 		pkgs = input.nixpkgs.legacyPackages.${systemSettings.arch};
@@ -71,7 +71,6 @@
 					label = "SWAP";
 				};
 			};
-			nordvpn = input.chomes-nix-modules.outPath;
 		};
 	in
 	{
@@ -85,7 +84,11 @@
 					inherit systemSettings;
 					inherit userSettings;
 				};
-				modules = [ ./system/index.nix ];
+				modules =
+				[
+					cmoscofian-nordvpn-nix.nixosModules.default
+					./system/index.nix
+				];
 			};
 		};
 		homeConfigurations =

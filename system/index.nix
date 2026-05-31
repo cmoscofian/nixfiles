@@ -4,7 +4,6 @@
 	[
 		./hardware-configuration.nix
 		./plymouth.nix
-		"${systemSettings.nordvpn}/nordvpn-module.nix"
 	];
 
 	boot =
