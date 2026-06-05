@@ -172,6 +172,10 @@ in
 		{
 			enable = true;
 		};
+		blueman-applet =
+		{
+			enable = true;
+		};
 	};
 
 	nixpkgs =

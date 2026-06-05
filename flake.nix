@@ -25,7 +25,7 @@
 		};
 		cmoscofian-nordvpn-nix =
 		{
-			url = "github:cmoscofian/nordvpn-nix/feat/flake";
+			url = "github:cmoscofian/nordvpn-nix/main";
 			flake = true;
 		};
 	};

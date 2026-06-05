@@ -3,11 +3,11 @@
     "cmoscofian-dotfiles": {
       "flake": false,
       "locked": {
-        "lastModified": 1779536268,
-        "narHash": "sha256-PG4R7Wgy9j1ET2feW4UJ64mu+azOlscCHxN3WFemft8=",
+        "lastModified": 1780662627,
+        "narHash": "sha256-Dl61csEuwyjuo1XzqDXoNKvFzH+DPs8+HgxLjKM6e/Q=",
         "owner": "cmoscofian",
         "repo": "dotfiles",
-        "rev": "64ff8650133fcf71e7be9dfd2d92251539ffae8f",
+        "rev": "a4abc4a0b770fc126ecafd944c04662b13e8569d",
         "type": "github"
       },
       "original": {
@@ -31,7 +31,7 @@
       },
       "original": {
         "owner": "cmoscofian",
-        "ref": "feat/flake",
+        "ref": "main",
         "repo": "nordvpn-nix",
         "type": "github"
       }
@@ -43,11 +43,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780099287,
-        "narHash": "sha256-efIPwVGtIWIjWcznhaop6XN6HxnOL8800hF6CBNvlqQ=",
+        "lastModified": 1780593650,
+        "narHash": "sha256-CHo7k65YTL3HY+WQVedDTupji+LMgNlKCdrtRHZFAK4=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "7d8127d308c3fb9664f7e643eec944be74ebb37d",
+        "rev": "447fd9ff62501dae7206dfe180ee89f8de27b7d5",
         "type": "github"
       },
       "original": {
@@ -75,11 +75,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1779560665,
-        "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
+        "lastModified": 1780243769,
+        "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+        "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
         "type": "github"
       },
       "original": {

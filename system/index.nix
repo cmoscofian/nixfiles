@@ -164,6 +164,10 @@
 
 	services =
 	{
+		blueman =
+		{
+			enable = true;
+		};
 		displayManager =
 		{
 			ly =
