@@ -3,11 +3,11 @@
     "cmoscofian-dotfiles": {
       "flake": false,
       "locked": {
-        "lastModified": 1780662627,
-        "narHash": "sha256-Dl61csEuwyjuo1XzqDXoNKvFzH+DPs8+HgxLjKM6e/Q=",
+        "lastModified": 1781118826,
+        "narHash": "sha256-XrLsUyMJqrD3LNEOmirJ3/tNkfhcdiDckN9fctHUc8A=",
         "owner": "cmoscofian",
         "repo": "dotfiles",
-        "rev": "a4abc4a0b770fc126ecafd944c04662b13e8569d",
+        "rev": "652f56dd930de30fc79bf1a0d76afd1c530614e9",
         "type": "github"
       },
       "original": {
@@ -43,11 +43,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780593650,
-        "narHash": "sha256-CHo7k65YTL3HY+WQVedDTupji+LMgNlKCdrtRHZFAK4=",
+        "lastModified": 1781115031,
+        "narHash": "sha256-WrHqMjiilIoqF1Lu5mxt9ypdl+VsNfX323LR4PcY4Bs=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "447fd9ff62501dae7206dfe180ee89f8de27b7d5",
+        "rev": "f96f717a47589c9d0b6e21f1a0d0d42d2c576f18",
         "type": "github"
       },
       "original": {
@@ -75,11 +75,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1780243769,
-        "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
+        "lastModified": 1780749050,
+        "narHash": "sha256-3av0pIjlOWQ6rDbNOmpUSvbNnJkGORQKKjb4LtCZsIY=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
+        "rev": "a799d3e3886da994fa307f817a6bc705ae538eeb",
         "type": "github"
       },
       "original": {

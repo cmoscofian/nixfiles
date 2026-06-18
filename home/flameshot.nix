@@ -17,8 +17,17 @@
 					showHelp = false;
 					showSidePanelButton=false;
 					showStartupLaunchMessage=false;
+					useGrimAdapter = true;
+					disabledGrimWarning = true;
 				};
 			};
 		};
+	};
+	home =
+	{
+		packages = with pkgs;
+		[
+			grim
+		];
 	};
 }

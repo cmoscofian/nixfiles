@@ -11,6 +11,7 @@ in
 	[
 		./alacritty.nix
 		./dunst.nix
+		./flameshot.nix
 		./fzf.nix
 		./git.nix
 		./gnupg.nix
