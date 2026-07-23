@@ -74,7 +74,13 @@
 			${userSettings.username} =
 			{
 				isNormalUser = true;
-				extraGroups = [ "wheel" "nordvpn" "dialout" ];
+				extraGroups =
+				[
+					"dialout"
+					"docker"
+					"nordvpn"
+					"wheel"
+				];
 				packages = [];
 			};
 		};
@@ -201,6 +207,14 @@
 				layout = "us,se,br";
 				options = "ctrl:nocaps,grp:win_space_toggle";
 			};
+		};
+	};
+
+	virtualisation =
+	{
+		docker =
+		{
+			enable = true;
 		};
 	};
 
