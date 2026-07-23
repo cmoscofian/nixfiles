@@ -192,6 +192,10 @@
 		{
 			enable = true;
 		};
+		resolved =
+		{
+			enable = true;
+		};
 		udev =
 		{
 			packages = with pkgs; 
@@ -236,6 +240,8 @@
 			nordvpn =
 			{
 				enable = true;
+				version = "5.2.0";
+				hash = "sha256-mFBwH1iedC5NksQ+7h8hiCYt23H0DlRT06KteVA9uJs=";
 			};
 		};
 	};
