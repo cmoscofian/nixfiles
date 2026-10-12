@@ -111,6 +111,10 @@
 		{
 			enable = true;
 		};
+		mango =
+		{
+			enable = true;
+		};
 		nm-applet =
 		{
 			enable = true;
@@ -148,7 +152,7 @@
 			curl
 			dunst
 			flatpak
-			openssl_3
+			openssl_4_0
 			pcmanfm
 			pinentry-qt
 			pulsemixer

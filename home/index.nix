@@ -20,6 +20,7 @@ in
 		./languages.nix
 		./lazygit.nix
 		./lsp.nix
+		./mango.nix
 		./nvim.nix
 		./ssh.nix
 		./tmux.nix
